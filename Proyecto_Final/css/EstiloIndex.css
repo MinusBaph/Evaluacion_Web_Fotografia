@@ -1,7 +1,17 @@
 #Encabezado{
   background: #5b7989;
   color: white;
-  text-align: left;
   border-radius: 10px 10px 0px 0px;
-  box-shadow: 2px; 
+  box-shadow: 2px;
+}
+
+.Nombre_Sitio{
+  text-align: left;
+  text-shadow: 2px 0px 0px #02010a;
+  margin: auto;
+  padding: 10px;
+}
+
+#menu{
+  text-align: right;
 }
