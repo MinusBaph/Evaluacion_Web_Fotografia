@@ -1,17 +1,67 @@
-#Encabezado{
+#Encabezado {
   background: #5b7989;
-  color: white;
   border-radius: 10px 10px 0px 0px;
-  box-shadow: 2px;
 }
-
+#Encabezado h1 {
+  color: #fff;
+  text-shadow: 2px 2px 0px #02010a;
+  padding-top: 2.5%;
+}
+#Encabezado a {
+  color: #fff
+}
 .Nombre_Sitio{
   text-align: left;
   text-shadow: 2px 0px 0px #02010a;
   margin: auto;
   padding: 10px;
 }
-
 #menu{
   text-align: right;
+}
+.active {
+  text-decoration: none;
+}
+.content2 {
+  display: flex;
+  background: #d5c75f;
+  border: 1px;
+}
+#contenido{
+}
+.Foto1{
+background: #82c3a6;
+padding: 10px;
+}
+.Foto2{
+padding: 5%;
+width: 40%;
+}
+.Foto3{
+padding: 5%;
+width: 40%;
+}
+.ImgCentral{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image{
+  box-shadow: 2px 2px 0px #02010a;
+}
+.rotar:hover {
+  transform: rotatez(10deg);
+  border: 2px;
+  box-shadow: 2PX 2PX 0PX #82c3a6;
+  transition: 0.5s;
+}
+.transladar:hover {
+  transform: translate(20px, -5px);
+  border: 2px;
+  box-shadow: 2PX 2PX 0PX #82c3a6;
+  transition: 0.5s;
+}
+#piepagina{
+  padding: 20%;
+  background: #C6d5c5;
 }
