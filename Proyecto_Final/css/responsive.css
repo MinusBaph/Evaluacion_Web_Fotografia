@@ -2,9 +2,15 @@
   #contenido {
     width: 900px;
   }
+  #menu{
+    text-align: right;
+  }
 }
 @media max-width(900px) {
   #contenido {
     with: 100%;
+  }
+  #menu{
+    text-align: center;
   }
 }
