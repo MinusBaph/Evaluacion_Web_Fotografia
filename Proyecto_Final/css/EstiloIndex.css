@@ -2,7 +2,33 @@ body {
   background: black;
   margin: 1% 10%;
   font-family: 'Dancing Script', cursive;
-  font-size: 1em;
+  animation-name: rebote;
+  animation-duration: 0.5s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+}
+@keyframes rebote {
+0% {
+  margin-top: 150%;
+}
+60% {
+  margin-top: -5%;
+}
+100% {
+  margin-top: 0%;
+}
+}
+#menu{
+float: right;
+}
+.navegador{
+  display: -webkit-box;
+  margin-top: -2.5rem;
+  margin-right: 1rem
+}
+.navegador li {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 #Encabezado {
   background: #5b7989;
@@ -11,7 +37,7 @@ body {
 #Encabezado h1 {
   color: #fff;
   text-shadow: 2px 2px 0px #02010a;
-  padding-top: 2.5%;
+  font-size: 5vh;
 }
 #Encabezado a {
   color: #fff
@@ -29,17 +55,12 @@ body {
   display: flex;
   background: #d5c75f;
   border: 1px;
-  flex-flow: row wrap;
 }
 .Foto1{
 background: #82c3a6;
 padding: 3% 10%;
 }
 .Foto2{
-padding: 5%;
-width: 40%;
-}
-.Foto3{
 padding: 5%;
 width: 40%;
 }
@@ -66,23 +87,11 @@ width: 40%;
 }
 #piepagina{
   display: flex;
-  flex-flow: row wrap;
   padding: 5%;
   background: #C6d5c5;
 }
-.row1{
-  order:1;
-  flex-grow: 2;
-}
-.row2{
-  order:2;
-  flex-grow: 2;
-}
-.row3{
-  order:3;
-  flex-grow: 2;
-}
-.row4{
-  order:4;
-  flex-grow: 2;
+.row{
+  margin: auto;
+  text-align:center;
+  margin-right: 1rem;
 }

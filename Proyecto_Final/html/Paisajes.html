@@ -2,44 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0"/>
     <meta name="author" content="Gerardo Garzón Alvarez"/>
     <meta name="keywords" content="html,css,xml,javascript,nextu"/>
     <meta name="description" content="Web de Fotografía_Evaluación Final"/>
     <title>Evaluación Fina CSS</title>
-    <link rel="stylesheet" href="css/EstiloIndex.css">
+    <link rel="stylesheet" href="../css/EstiloPaisaje.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
   </head>
   <body>
     <header id="Encabezado">
         <h1 class="Nombre_Sitio">Comenzando con la fotografía</h1>
       <nav id="menu">
-          <a class="Enlace inicio" href="index.html">Inicio</a>
-          <a class="Enlace paisaje" href="html/paisajes.html">Paisajes</a>
-          <a class="Enlace retrato" href="html/retratos.html">Retratos</a>
+        <ul class="navegador" style="list-style: none">
+          <li><a class="Enlace inicio" href="../index.html">Inicio</a></li>
+          <li><a class="Enlace paisaje active" href="../html/paisajes.html">Paisajes</a></li>
+          <li><a class="Enlace retrato" href="../html/retratos.html">Retratos</a></li>
+        </ul>
       </nav>
     </header>
-    <div id="contenido">
-      <img class="ImgCentral" src="img/camara.jpg" alt="Camara" title="Img_Central" width="900px" height="auto"/>
-      <img class="ImgPaisaje" src="img/paisaje.jpg" alt="Paisajes" title="Img_Paisaje" width="900px" height="auto"/>
-      <img class="ImgRetrato" src="img/retrato.png" alt="Retratos" title="Img_Retrato" width="900px" height="auto"/>
+  <div id="contenido">
+      <div class="Foto2 blur">
+        <img class="ImgPaisaje image" width="100%" src="../img/paisaje.jpg" alt="Paisajes" title="Img_Paisaje"/>
+      </div>
+      <div class="Foto2 grises">
+        <img class="ImgPaisaje image" width="100%" src="../img/paisaje.jpg" alt="Paisajes" title="Img_Paisaje"/>
+      </div>
+      <div class="Foto2 sepia">
+        <img class="ImgPaisaje image" width="100%" src="../img/paisaje.jpg" alt="Paisajes" title="Img_Paisaje"/>
+      </div>
+      <div class="Foto2 grises">
+        <img class="ImgPaisaje image" width="100%" src="../img/paisaje.jpg" alt="Paisajes" title="Img_Paisaje"/>
+      </div>
+      <div class="Foto2">
+        <img class="ImgPaisaje image" width="100%" src="../img/paisaje.jpg" alt="Paisajes" title="Img_Paisaje"/>
+      </div>
+      <div class="Foto2 grises">
+        <img class="ImgPaisaje image" width="100%" src="../img/paisaje.jpg" alt="Paisajes" title="Img_Paisaje"/>
+      </div>
     </div>
-    <footer id="piepagina">
-      <div class="row1">
-        <h3>Contacto</h3>
-        <p>Gerardpuj@gmail.com<br>Cll 146 # 58C-21<br>(+57)319-240-1975S</p>
-      </div>
-      <div class="row2">
-        <h3>Términos</h3>
-        <p>Conoce nuestros terminos y condiciones...</p>
-      </div>
-      <div class="row3">
-        <h3>Redes Sociales</h3>
-        <p>https://www.facebook.com/gelard<br>@MinusBaph</p>
-      </div>
-      <div class="row4">
-        <h3>Derechos</h3>
-        <p>&reg; Copyright - 2018</p>
-      </div>
-    </footer>
+  <footer id="piepagina">
+    <div class="row">
+      <h3>Contacto</h3>
+      <p>Gerardpuj@gmail.com<br>Cll 146 # 58C-21<br>(+57)319-240-1975S</p>
+    </div>
+    <div class="row">
+      <h3>Términos</h3>
+      <p>Conoce nuestros terminos y condiciones...</p>
+    </div>
+    <div class="row">
+      <h3>Redes Sociales</h3>
+      <p>https://www.facebook.com/gelard<br>@MinusBaph</p>
+    </div>
+    <div class="row">
+      <h3>Derechos</h3>
+      <p>&reg; Copyright - 2018</p>
+    </div>
+  </footer>
   </body>
 </html>

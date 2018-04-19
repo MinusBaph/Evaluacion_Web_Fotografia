@@ -71,9 +71,9 @@ float: right;
   -webkit-filter: blur(35px);
   filter: blur(10px);
 }
-.grises{
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+.invertir{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 .sepia{
   -webkit-filter: sepia(90%);

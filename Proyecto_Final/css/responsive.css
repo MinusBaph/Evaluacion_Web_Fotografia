@@ -1,16 +1,34 @@
-@media min-width(1024px) {
-  #contenido {
-    width: 900px;
-  }
-  #menu{
-    text-align: right;
-  }
+@media only screen and (max-width: 900px) {
+body {
+  margin: 4px
 }
-@media max-width(900px) {
   #contenido {
-    with: 100%;
+    width: 100%;
   }
-  #menu{
+  .content2 {
+    display: block;
+  }
+  .Foto2 {
+    width: 80%;
+    margin: auto
+  }
+  .ImgCentral {
+    width: 100%
+  }
+  #piepagina{
+    display: block;
+  }
+  #menu {
+    float: none;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 49px;
+}
+  .Nombre_Sitio {
     text-align: center;
+  }
+  header {
+    height: fit-content;
   }
 }
